@@ -35,6 +35,7 @@ The backend of our project is built using Django and contains the Sentiment Anal
     pip3 install pandas
     pip3 install django-cors-headers
     ```
+- Run python manage.py makemigrations    
 - Run python manage.py migrate to create the database tables.
 - Run python manage.py runserver to start the development server.
 - Navigate to http://localhost:8000/ in your web browser to view the backend.
